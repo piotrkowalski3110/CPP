@@ -1,0 +1,110 @@
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+dynamiczna alokacja pamięci:
+
+int main()
+{
+    int n;
+    cin >> n;
+
+    double *tab; //tablica jako wskaznik
+    tab = new double[n]; //utworzenie dynamicznej tablicy
+
+    for(int i=0; i<n; i++)
+    {
+        cin>>tab[i];
+    }
+
+    for(int i=0; i<n; i++)
+    {
+        cout<<tab[i]<<endl;
+    }
+
+    delete [] tab; //usuniecie tablicy ze sterty
+
+    return 0;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+dynamiczna tablica dwu wymiarowa:
+
+#include <iostream>
+#include <time.h>
+using namespace std;
+int p, d;
+
+int main() {
+    cout<<"Podaj rozmiar wierszy tablicy: ";
+    cin >> p;
+    cout<<"Podaj rozmiar kolumn tablicy: ";
+    cin >> d;
+
+    srand(time(NULL));
+    int ** tab;
+    tab = new int* [p];
+
+    for(int i=0; i<p; i++)
+    {
+        tab[i] = new int[d];
+    }
+
+    for(int i = 0; i<p; i++)
+    {
+        for (int j=0; j<d; j++)
+        {
+            tab[i][j] = rand()%100 + 1;
+        }
+    }
+
+    for(int i=0; i<p; i++)
+    {
+        for(int j=0; j<d; j++)
+        {
+            cout<<"tab ["<<i+1<<"] ["<<j+1<<"] = "<<tab[i][j]<<endl;
+        }
+    }
+
+    for(int i=0; i<p; i++)
+    {
+        delete [] tab[i];
+    }
+
+    delete [] tab;
+    return 0;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+Funkcja przez wksazniki:
+
+#include <iostream>
+#include <cmath>
+#define _USE_MATH_DEFINES
+
+using namespace std;
+
+double poleiobwod(double r, double *p, double *o)
+{
+    *p = M_PI * pow(r,2);
+    *o = M_PI * 2 * r;
+}
+
+int main() {
+    double r, obwod, pole;
+    double *o, *p;
+
+     p =&pole;
+     o = &obwod;
+
+
+    cout<<"Podaj promien kola: ";
+    cin >> r;
+    poleiobwod(r,p,o);
+
+    cout<<"Poel kola to: "<<pole<<endl;
+    cout<<"Obwod kola to: "<<obwod<<endl;
+
+    return 0;
+}
+////////////////////////////////////////////////////////////////////////////////////////////////////////
+Referencje:
+
+
+
+

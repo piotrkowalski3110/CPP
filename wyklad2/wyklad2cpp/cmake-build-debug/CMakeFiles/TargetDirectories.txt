@@ -1,0 +1,3 @@
+/home/piotrk/Pulpit/CPP/wyklad2/wyklad2cpp/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/piotrk/Pulpit/CPP/wyklad2/wyklad2cpp/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/piotrk/Pulpit/CPP/wyklad2/wyklad2cpp/cmake-build-debug/CMakeFiles/wyklad2cpp.dir

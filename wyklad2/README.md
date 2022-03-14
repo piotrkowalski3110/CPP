@@ -1,0 +1,1 @@
+# PROJEKT wyklad2cpp jest tylko i wylacznie do tworzenia notatek, nic w nim nie ma!

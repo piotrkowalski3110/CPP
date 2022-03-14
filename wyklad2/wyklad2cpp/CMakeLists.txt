@@ -3,4 +3,4 @@ project(wyklad2cpp)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(wyklad2cpp main.cpp)
+add_executable(wyklad2cpp main.cpp biblioteka.h)

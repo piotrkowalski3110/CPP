@@ -1,5 +1,6 @@
 #include <iostream>
 #include <cmath>
+#include "biblioteka.h"
 #define _USE_MATH_DEFINES
 
 using namespace std;

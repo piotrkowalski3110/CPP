@@ -1,0 +1,8 @@
+//
+// Created by piotrk on 14.03.2022.
+//
+
+#ifndef WYKLAD2CPP_BIBLIOTEKA_H
+#define WYKLAD2CPP_BIBLIOTEKA_H
+
+#endif //WYKLAD2CPP_BIBLIOTEKA_H

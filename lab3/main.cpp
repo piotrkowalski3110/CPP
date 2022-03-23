@@ -10,8 +10,29 @@
 zespolone odejmowanie(zespolone Z1, zespolone Z2)
 {
     zespolone wynik;
-    wynik.re = Z1.re + Z2.re;
-    wynik.im = Z1.im + Z2.im;
+    wynik.re = Z1.re - Z2.re;
+    wynik.im = Z1.im - Z2.im;
+    return wynik;
+}
+
+zespolone dzielenie(zespolone Z1, zespolone Z2)
+{
+    zespolone wynik;
+    double warunek;
+
+    warunek = (Z2.re * Z2.re) + (Z2.im * Z2.im);
+
+    if(warunek > 0)
+    {
+        wynik.re = ((Z1.re * Z2.re) + (Z1.im * Z2.im))/warunek;
+        wynik.im = ((Z2.re * Z1.im) - (Z1.re * Z2.im))/warunek;
+
+        return wynik;
+    }
+    else
+    {
+        printf("BLAD W DZIELENIU!");
+    }
     return wynik;
 }
 
@@ -86,8 +107,10 @@ int main() {
     zespolone Z1(1,2);
     zespolone Z2(3,4);
 
-    Z1.dodaj(Z2);
-    odejmowanie(Z1, Z2);
+    zespolone(Z1.dodaj(Z2)).wypisz();
+    zespolone(odejmowanie(Z1,Z2)).wypisz();
+    zespolone(Z1.pomnoz(Z2)).wypisz();
+    zespolone(dzielenie(Z1,Z2)).wypisz();
 
     return 0;
 }

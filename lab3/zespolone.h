@@ -19,6 +19,15 @@ public:
         return wynik;
     }
 
+    zespolone pomnoz(zespolone Z)
+    {
+        zespolone wynik;
+        wynik.re = re * Z.re - im * Z.im;
+        wynik.im = re * Z.re + im * Z.im;
+
+        return wynik;
+    }
+
 
     void wypisz()
     {
@@ -28,7 +37,7 @@ public:
         }
         else
         {
-            cout<<re<<" + "<<im<<"i"<<endl;
+            cout<<re<<" - "<<im*(-1)<<"i"<<endl;
         }
     }
 

@@ -1,42 +1,37 @@
 //
-// Created by piotrk on 21.03.2022.
+// Created by piotrk on 23.03.2022.
 //
 
 #ifndef LAB3_ZESPOLONE_H
 #define LAB3_ZESPOLONE_H
 
 class zespolone {
-    public:
-        int re=0;
-        int im=0;
+public:
+    double re, im;
+    zespolone(){}
+    zespolone(double re, double im):re(re),im(im){};
 
-        int dodawanie(int r1, int i1, int r2, int i2)
+    zespolone dodaj(zespolone Z)
+    {
+        zespolone wynik;
+        wynik.re = re + Z.re;
+        wynik.im = im + Z.im;
+        return wynik;
+    }
+
+
+    void wypisz()
+    {
+        if (im >= 0)
         {
-            int red = r1+r2;
-            int imd = i1+i2;
-
-            cout<<red<<" + "<<imd<<"i";
+            cout<<re<<" + "<<im<<"i"<<endl;
         }
-
-        int odejmowanie(int r1, int i1, int r2, int i2)
+        else
         {
-            int reo= r1-r2;
-            int imo = i1-i2;
-
-            if(imo<0) cout<<reo<<" - "<<(imo)*(-1)<<"i";
-            if(imo>0) cout<<reo<<" + "<<imo<<"i";
-
+            cout<<re<<" + "<<im<<"i"<<endl;
         }
+    }
 
-        int mnozenie(int r1, int i1, int r2, int i2)
-        {
-
-        }
-
-        int dzielenie()
-        {
-
-        }
 };
 
 

@@ -11,19 +11,32 @@ class tabdyn {
         int *tab;
         int rozm;
 
-        void setelement()
+        void setelement(int set)
         {
-            int set;
-            for(int i=0; i<rozm; i++)
-            {
-                cin>>set;
-                tab[i] = set;
-            }
+         int* Tn;
+         Tn = new int [rozm + 1];
+        memcpy(Tn, tab, rozm * sizeof(int)); //zamiennie z forem na dole
+
+        /*
+         for(int i=0; i<rozm; i++)
+         {
+          Tn[i] = tab[i];
+         }
+         */
+
+         delete [] tab;
+
+         tab = Tn;
+         rozm = rozm+1;
+         tab[rozm-1] = set;
         }
 
-        void getelement(int idx)
+        void getelement()
         {
-            cout<<idx<<". element tablicy to: "<<tab[idx]<<endl;
+            int idx;
+            cout<<"Podaj element do wypisania: ";
+            cin>> idx;
+            cout<<idx<<". element tablicy to: "<<tab[idx-1]<<endl;
         }
 
         int sum()
@@ -37,9 +50,9 @@ class tabdyn {
             return suma;
         }
 
-        int mean()
+        double mean()
         {
-            int srednia = 0;
+            double srednia = 0;
             for(int i=0; i<rozm; i++)
             {
                 srednia+=tab[i];

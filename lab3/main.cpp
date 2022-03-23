@@ -1,9 +1,19 @@
 #include <iostream>
 #include <time.h>
+#include <cstdint>
+#include <cstring>
 #include "punkt.h"
 #include "tablice.h"
 #include "tabdyn.h"
 #include "zespolone.h"
+
+zespolone odejmowanie(zespolone Z1, zespolone Z2)
+{
+    zespolone wynik;
+    wynik.re = Z1.re + Z2.re;
+    wynik.im = Z1.im + Z2.im;
+    return wynik;
+}
 
 
 int main() {
@@ -50,29 +60,34 @@ int main() {
 
     /*
     tabdyn tab1;
-    int n = 5;
-    tab1.rozm=n;
+    int set;
+    tab1.rozm=1;
     tab1.tab = new int [tab1.rozm];
-    tab1.setelement();
-    tab1.getelement(2);
+    for(int i=0; i<tab1.rozm; i++)
+    {
+        tab1.tab[i] = rand()%10;
+    }
+    cout<<"Podaj element: ";
+    cin >> set;
+    tab1.setelement(set);
+    tab1.getelement();
+    cout<<"Podaj element: ";
+    cin >> set;
+    tab1.setelement(set);
+    tab1.getelement();
     cout<<endl;
-    cout<<tab1.sum()<<endl;
-    cout<<tab1.mean()<<endl;
+    cout<<"Suma: "<<tab1.sum()<<endl;
+    cout<<"Srednia: "<<tab1.mean()<<endl;
 
 
     delete [] tab1.tab;
     */
-    zespolone zesp1;
-    zespolone zesp2;
 
-    zesp1.re = 2;
-    zesp1.im = 2;
-    zesp2.re = 3;
-    zesp2.im = 3;
+    zespolone Z1(1,2);
+    zespolone Z2(3,4);
 
-    zesp1.dodawanie(zesp1.re, zesp1.im, zesp2.re, zesp2.im);
-    cout<<endl;
-    zesp2.odejmowanie(zesp1.re, zesp1.im, zesp2.re, zesp2.im);
-    cout<<endl;
+    Z1.dodaj(Z2);
+    odejmowanie(Z1, Z2);
+
     return 0;
 }

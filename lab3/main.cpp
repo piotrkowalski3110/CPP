@@ -3,6 +3,7 @@
 #include "punkt.h"
 #include "tablice.h"
 #include "tabdyn.h"
+#include "zespolone.h"
 
 
 int main() {
@@ -47,6 +48,7 @@ int main() {
     cout<<"MIN: "<<tab2.min()<<endl;
      */
 
+    /*
     tabdyn tab1;
     int n = 5;
     tab1.rozm=n;
@@ -59,5 +61,18 @@ int main() {
 
 
     delete [] tab1.tab;
+    */
+    zespolone zesp1;
+    zespolone zesp2;
+
+    zesp1.re = 2;
+    zesp1.im = 2;
+    zesp2.re = 3;
+    zesp2.im = 3;
+
+    zesp1.dodawanie(zesp1.re, zesp1.im, zesp2.re, zesp2.im);
+    cout<<endl;
+    zesp2.odejmowanie(zesp1.re, zesp1.im, zesp2.re, zesp2.im);
+    cout<<endl;
     return 0;
 }

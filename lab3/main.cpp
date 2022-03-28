@@ -2,10 +2,13 @@
 #include <time.h>
 #include <cstdint>
 #include <cstring>
+#include <string.h>
+#include <string>
 #include "punkt.h"
 #include "tablice.h"
 #include "tabdyn.h"
 #include "zespolone.h"
+#include "osoba.h"
 
 zespolone odejmowanie(zespolone Z1, zespolone Z2)
 {
@@ -103,7 +106,7 @@ int main() {
 
     delete [] tab1.tab;
     */
-
+    /*
     zespolone Z1(1,2);
     zespolone Z2(3,4);
 
@@ -111,6 +114,11 @@ int main() {
     zespolone(odejmowanie(Z1,Z2)).wypisz();
     zespolone(Z1.pomnoz(Z2)).wypisz();
     zespolone(dzielenie(Z1,Z2)).wypisz();
+    */
+
+    osoba os1("Piotr", "Kowalski");
+    osoba(os1).druk();
+
 
     return 0;
 }

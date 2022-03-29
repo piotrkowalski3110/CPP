@@ -1,4 +1,5 @@
 #include <iostream>
+#include <stdlib.h>
 #include <time.h>
 #include <cstdint>
 #include <cstring>
@@ -9,6 +10,7 @@
 #include "tabdyn.h"
 #include "zespolone.h"
 #include "osoba.h"
+#include "student.h"
 
 zespolone odejmowanie(zespolone Z1, zespolone Z2)
 {
@@ -41,7 +43,7 @@ zespolone dzielenie(zespolone Z1, zespolone Z2)
 
 
 int main() {
-    srand(time(NULL));
+    //srand(time(NULL));
     /*
     int x,y;
     int przesx, przesy;
@@ -116,9 +118,14 @@ int main() {
     zespolone(dzielenie(Z1,Z2)).wypisz();
     */
 
-    osoba os1("Piotr", "Kowalski");
-    osoba(os1).druk();
+    osoba os1('P','K');
+    os1.druk();
 
+    student st1(os1, 21);
+    int zdane = st1.czyzdal();
+    cout<<endl;
+    if(zdane==true) cout<<"Zdane!"<<endl;
+    else cout<<"Oblane!"<<endl;
 
     return 0;
 }

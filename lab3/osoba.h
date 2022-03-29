@@ -7,16 +7,14 @@
 
 class osoba {
 public:
-    string imie;
-    string nazwisko;
+    char imie;
+    char nazwisko;
 
-
-    osoba(){}
-    osoba(string imie, string nazwisko):imie(imie),nazwisko(nazwisko){};
+    osoba(char name, char surname):imie(name),nazwisko(surname){};
 
     osoba druk()
     {
-        cout<<"Imie: "<<imie<<" Nazwisko: "<<nazwisko;
+        cout<<"Imie: "<<imie<<" Nazwisko: "<<nazwisko<<endl;
     }
 
 };

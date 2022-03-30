@@ -7,10 +7,14 @@
 
 class osoba {
 public:
-    char imie;
-    char nazwisko;
+    string imie;
+    string nazwisko;
 
-    osoba(char name, char surname):imie(name),nazwisko(surname){};
+    osoba(string name, string surname):imie(name),nazwisko(surname){};
+    /*
+    osoba(string name, string surname)
+    {imie=name;nazwisko=surname;}
+     */
 
     osoba druk()
     {

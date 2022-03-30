@@ -118,14 +118,16 @@ int main() {
     zespolone(dzielenie(Z1,Z2)).wypisz();
     */
 
-    osoba os1('P','K');
+    osoba os1("Piotr","Kowalski");
     os1.druk();
 
-    student st1(os1, 21);
+    /*
+    student st1("piotr","kk", 21);
     int zdane = st1.czyzdal();
     cout<<endl;
     if(zdane==true) cout<<"Zdane!"<<endl;
     else cout<<"Oblane!"<<endl;
+     */
 
     return 0;
 }

@@ -11,7 +11,7 @@ public:
     osoba stud;
     int ects;
 
-    student(osoba studenciak, int punkty):stud(studenciak),ects(punkty){};
+    student(string i, string n, int punkty):stud(i,n),ects(punkty){};
 
     bool czyzdal()
     {

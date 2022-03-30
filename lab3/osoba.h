@@ -16,7 +16,7 @@ public:
     {imie=name;nazwisko=surname;}
      */
 
-    osoba druk()
+    void druk()
     {
         cout<<"Imie: "<<imie<<" Nazwisko: "<<nazwisko<<endl;
     }

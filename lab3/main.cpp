@@ -121,13 +121,13 @@ int main() {
     osoba os1("Piotr","Kowalski");
     os1.druk();
 
-    /*
+
     student st1("piotr","kk", 21);
     int zdane = st1.czyzdal();
     cout<<endl;
     if(zdane==true) cout<<"Zdane!"<<endl;
     else cout<<"Oblane!"<<endl;
-     */
+
 
     return 0;
 }

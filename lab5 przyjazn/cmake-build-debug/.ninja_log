@@ -1,0 +1,5 @@
+# ninja log v5
+210	284	1649230867635889999	lab5_przyjazn	8a2a20e28a1be333
+0	279	1649230845395535326	CMakeFiles/lab5_przyjazn.dir/Circle.cpp.o	79d494bb105e5fb6
+0	210	1649230867562555559	CMakeFiles/lab5_przyjazn.dir/main.cpp.o	3eae06c141b15cbe
+1	21	1649227176460623989	CMakeFiles/lab5_przyjazn.dir/Point.cpp.o	a4010105d34a4a72

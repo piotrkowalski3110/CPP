@@ -1,0 +1,3 @@
+/home/piotrk/Pulpit/CPP/semafory/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+/home/piotrk/Pulpit/CPP/semafory/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/piotrk/Pulpit/CPP/semafory/cmake-build-debug/CMakeFiles/semafory.dir

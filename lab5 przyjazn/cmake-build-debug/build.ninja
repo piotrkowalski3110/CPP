@@ -96,6 +96,12 @@ build CMakeFiles/lab5_przyjazn.dir/Rational.cpp.o: CXX_COMPILER__lab5_przyjazn_D
   OBJECT_DIR = CMakeFiles/lab5_przyjazn.dir
   OBJECT_FILE_DIR = CMakeFiles/lab5_przyjazn.dir
 
+build CMakeFiles/lab5_przyjazn.dir/Complex.cpp.o: CXX_COMPILER__lab5_przyjazn_Debug /home/piotrk/Pulpit/CPP/lab5$ przyjazn/Complex.cpp || cmake_object_order_depends_target_lab5_przyjazn
+  DEP_FILE = CMakeFiles/lab5_przyjazn.dir/Complex.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/lab5_przyjazn.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab5_przyjazn.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lab5_przyjazn
@@ -104,7 +110,7 @@ build CMakeFiles/lab5_przyjazn.dir/Rational.cpp.o: CXX_COMPILER__lab5_przyjazn_D
 #############################################
 # Link the executable lab5_przyjazn
 
-build lab5_przyjazn: CXX_EXECUTABLE_LINKER__lab5_przyjazn_Debug CMakeFiles/lab5_przyjazn.dir/main.cpp.o CMakeFiles/lab5_przyjazn.dir/Point.cpp.o CMakeFiles/lab5_przyjazn.dir/Circle.cpp.o CMakeFiles/lab5_przyjazn.dir/Rational.cpp.o
+build lab5_przyjazn: CXX_EXECUTABLE_LINKER__lab5_przyjazn_Debug CMakeFiles/lab5_przyjazn.dir/main.cpp.o CMakeFiles/lab5_przyjazn.dir/Point.cpp.o CMakeFiles/lab5_przyjazn.dir/Circle.cpp.o CMakeFiles/lab5_przyjazn.dir/Rational.cpp.o CMakeFiles/lab5_przyjazn.dir/Complex.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/lab5_przyjazn.dir
   POST_BUILD = :

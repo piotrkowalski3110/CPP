@@ -11,7 +11,7 @@ public:
         Mianownik = B;
     }
 //Przeciążenie operatora + za pomocą funkcji składowej klasy
-    Rational operator+(const Rational& U)const;
-    Friend std::ostream & operator<<(std::ostream& out, Rational& W);
-    Friend Rational operator- (const Rational&, const Rational&);
-}; 
+    Rational operator+(const Rational&)const;
+    friend std::ostream& operator<<(std::ostream& out, Rational& W);
+    friend Rational operator- (const Rational&, const Rational&);
+};

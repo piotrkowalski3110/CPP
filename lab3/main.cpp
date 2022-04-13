@@ -108,7 +108,7 @@ int main() {
 
     delete [] tab1.tab;
     */
-    /*
+
     zespolone Z1(1,2);
     zespolone Z2(3,4);
 
@@ -116,8 +116,8 @@ int main() {
     zespolone(odejmowanie(Z1,Z2)).wypisz();
     zespolone(Z1.pomnoz(Z2)).wypisz();
     zespolone(dzielenie(Z1,Z2)).wypisz();
-    */
 
+/*
     osoba os1("Piotr","Kowalski");
     os1.druk();
 
@@ -127,7 +127,7 @@ int main() {
     cout<<endl;
     if(zdane==true) cout<<"Zdane!"<<endl;
     else cout<<"Oblane!"<<endl;
-
+*/
 
     return 0;
 }

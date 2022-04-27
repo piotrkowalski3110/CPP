@@ -2,14 +2,14 @@
 #include <time.h>
 #include <cstdlib>
 
-template<int NumberOfEl> class Tablica
+template<int NumberOfRows, int NumberOfCol> class Tab2D
 {
 private:
-    int Tab[NumberOfEl];
+    int Tab[NumberOfRows][NumberOfCol];
 public:
-    Tablica();
+    Tab2D();
     void Set(int Element, int N);
-    int Get(int N);
+    int Get(int N, int M);
     int max();
     int min();
     void sort();

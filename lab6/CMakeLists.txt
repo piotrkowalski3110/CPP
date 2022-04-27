@@ -3,4 +3,4 @@ project(lab6)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(lab6 main.cpp Tablica.cpp Tablica.h)
+add_executable(lab6 main.cpp Tablica.cpp Tablica.h Tab2D.cpp Tab2D.h)

@@ -84,6 +84,12 @@ build CMakeFiles/lab6.dir/Tablica.cpp.o: CXX_COMPILER__lab6_Debug /home/piotrk/P
   OBJECT_DIR = CMakeFiles/lab6.dir
   OBJECT_FILE_DIR = CMakeFiles/lab6.dir
 
+build CMakeFiles/lab6.dir/Tab2D.cpp.o: CXX_COMPILER__lab6_Debug /home/piotrk/Pulpit/CPP/lab6/Tab2D.cpp || cmake_object_order_depends_target_lab6
+  DEP_FILE = CMakeFiles/lab6.dir/Tab2D.cpp.o.d
+  FLAGS = -g -std=gnu++14
+  OBJECT_DIR = CMakeFiles/lab6.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab6.dir
+
 
 # =============================================================================
 # Link build statements for EXECUTABLE target lab6
@@ -92,7 +98,7 @@ build CMakeFiles/lab6.dir/Tablica.cpp.o: CXX_COMPILER__lab6_Debug /home/piotrk/P
 #############################################
 # Link the executable lab6
 
-build lab6: CXX_EXECUTABLE_LINKER__lab6_Debug CMakeFiles/lab6.dir/main.cpp.o CMakeFiles/lab6.dir/Tablica.cpp.o
+build lab6: CXX_EXECUTABLE_LINKER__lab6_Debug CMakeFiles/lab6.dir/main.cpp.o CMakeFiles/lab6.dir/Tablica.cpp.o CMakeFiles/lab6.dir/Tab2D.cpp.o
   FLAGS = -g
   OBJECT_DIR = CMakeFiles/lab6.dir
   POST_BUILD = :

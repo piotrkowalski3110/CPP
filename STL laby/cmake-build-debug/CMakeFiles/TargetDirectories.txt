@@ -1,0 +1,3 @@
+/home/piotrk/Pulpit/CPP/STL laby/cmake-build-debug/CMakeFiles/STL_laby.dir
+/home/piotrk/Pulpit/CPP/STL laby/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/piotrk/Pulpit/CPP/STL laby/cmake-build-debug/CMakeFiles/rebuild_cache.dir

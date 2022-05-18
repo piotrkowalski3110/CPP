@@ -1,0 +1,3 @@
+/home/piotrk/Pulpit/CPP/Agregaty lab8/cmake-build-debug/CMakeFiles/Agregaty_lab8.dir
+/home/piotrk/Pulpit/CPP/Agregaty lab8/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/piotrk/Pulpit/CPP/Agregaty lab8/cmake-build-debug/CMakeFiles/rebuild_cache.dir

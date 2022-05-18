@@ -3,4 +3,4 @@ project(STL_laby)
 
 set(CMAKE_CXX_STANDARD 14)
 
-add_executable(STL_laby main.cpp Tablica.h Osoba.h)
+add_executable(STL_laby main.cpp Tablica.h Osoba.h Complex.cpp Complex.h Macierze.cpp Macierze.h)

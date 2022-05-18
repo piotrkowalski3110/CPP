@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/STL_laby.dir/main.cpp.o CMakeFiles/STL_laby.dir/Complex.cpp.o CMakeFiles/STL_laby.dir/Macierze.cpp.o -o STL_laby 

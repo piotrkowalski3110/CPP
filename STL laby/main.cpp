@@ -4,6 +4,8 @@
 #include<vector>
 #include "Tablica.h"
 #include "Osoba.h"
+#include "Complex.h"
+#include "Macierze.h"
 
 using namespace std;
 
@@ -66,18 +68,21 @@ int main() {
     cout << lista_osob.back();
     */
 
-    Tablica<int> t1;
-    t1.PushBack(15);
-    t1.PushBack(16);
-    t1.PushBack(128);
+    //Tablica<int> t1;
+    //t1.PushBack(15);
+    //t1.PushBack(16);
+    //t1.PushBack(128);
     //t1.Front();
     //t1.Back();
 
-    cout<<"Przed reverse:" << endl << t1.Print()<<endl;
-    t1.Reverse();
-    cout<<"Po reverse:" << endl << t1.Print()<<endl;
+    //cout<<"Przed reverse:" << endl << t1.Print()<<endl;
+    //t1.Reverse();
+    //cout<<"Po reverse:" << endl << t1.Print()<<endl;
 
     //t1.Front();
     //t1.Back();
+
+    Macierze M1(5,5);
+    M1.wyswietlMacierz();
     return 0;
 }

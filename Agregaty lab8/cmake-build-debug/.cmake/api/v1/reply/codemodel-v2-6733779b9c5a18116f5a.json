@@ -27,7 +27,7 @@
 					[
 						0
 					],
-					"name" : "STL_laby",
+					"name" : "Agregaty_lab8",
 					"targetIndexes" : 
 					[
 						0
@@ -38,9 +38,9 @@
 			[
 				{
 					"directoryIndex" : 0,
-					"id" : "STL_laby::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-STL_laby-Debug-6f3d37830e86f3e83a7f.json",
-					"name" : "STL_laby",
+					"id" : "Agregaty_lab8::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-Agregaty_lab8-Debug-dd8f74e58fd5ad2803bb.json",
+					"name" : "Agregaty_lab8",
 					"projectIndex" : 0
 				}
 			]
@@ -49,8 +49,8 @@
 	"kind" : "codemodel",
 	"paths" : 
 	{
-		"build" : "/home/piotrk/Pulpit/CPP/STL laby/cmake-build-debug",
-		"source" : "/home/piotrk/Pulpit/CPP/STL laby"
+		"build" : "/home/piotrk/Pulpit/CPP/Agregaty lab8/cmake-build-debug",
+		"source" : "/home/piotrk/Pulpit/CPP/Agregaty lab8"
 	},
 	"version" : 
 	{

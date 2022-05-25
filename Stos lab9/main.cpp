@@ -1,6 +1,21 @@
 #include <iostream>
+#include <vector>
+using namespace std;
+
+template<typename TYP> class Stack
+{
+private:
+    vector<TYP> Kontener;
+public:
+    Stack(){Kontener.reserve(100);} //wbudowana w vector funkcja reseve umożliwia ustalenie pojemności kontenera.
+
+    void Clear();
+    bool IsEmpty();
+    void Push(TYP El);
+    TYP TopEl();
+    TYP Pop();
+};
 
 int main() {
-    std::cout << "Hello, World!" << std::endl;
     return 0;
 }

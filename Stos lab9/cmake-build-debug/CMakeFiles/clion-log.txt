@@ -1,4 +1,4 @@
-/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" -S "/home/piotrk/Pulpit/CPP/Agregaty lab8" -B "/home/piotrk/Pulpit/CPP/Agregaty lab8/cmake-build-debug"
+/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/cmake -DCMAKE_BUILD_TYPE=Debug -DCMAKE_MAKE_PROGRAM=/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/ninja/linux/ninja -G Ninja -S "/home/piotrk/Pulpit/CPP/Stos lab9" -B "/home/piotrk/Pulpit/CPP/Stos lab9/cmake-build-debug"
 -- The C compiler identification is GNU 12.1.0
 -- The CXX compiler identification is GNU 12.1.0
 -- Detecting C compiler ABI info
@@ -13,4 +13,4 @@
 -- Detecting CXX compile features - done
 -- Configuring done
 -- Generating done
--- Build files have been written to: /home/piotrk/Pulpit/CPP/Agregaty lab8/cmake-build-debug
+-- Build files have been written to: /home/piotrk/Pulpit/CPP/Stos lab9/cmake-build-debug

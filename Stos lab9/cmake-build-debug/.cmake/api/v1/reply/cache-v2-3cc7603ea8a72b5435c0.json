@@ -2,42 +2,6 @@
 	"entries" : 
 	[
 		{
-			"name" : "Agregaty_lab8_BINARY_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/piotrk/Pulpit/CPP/Agregaty lab8/cmake-build-debug"
-		},
-		{
-			"name" : "Agregaty_lab8_IS_TOP_LEVEL",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "ON"
-		},
-		{
-			"name" : "Agregaty_lab8_SOURCE_DIR",
-			"properties" : 
-			[
-				{
-					"name" : "HELPSTRING",
-					"value" : "Value Computed by CMake"
-				}
-			],
-			"type" : "STATIC",
-			"value" : "/home/piotrk/Pulpit/CPP/Agregaty lab8"
-		},
-		{
 			"name" : "CMAKE_ADDR2LINE",
 			"properties" : 
 			[
@@ -91,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piotrk/Pulpit/CPP/Agregaty lab8/cmake-build-debug"
+			"value" : "/home/piotrk/Pulpit/CPP/Stos lab9/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -627,7 +591,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piotrk/Pulpit/CPP/Agregaty lab8"
+			"value" : "/home/piotrk/Pulpit/CPP/Stos lab9"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -867,7 +831,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "Agregaty_lab8"
+			"value" : "Stos_lab9"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -1148,6 +1112,42 @@
 			],
 			"type" : "BOOL",
 			"value" : "FALSE"
+		},
+		{
+			"name" : "Stos_lab9_BINARY_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/piotrk/Pulpit/CPP/Stos lab9/cmake-build-debug"
+		},
+		{
+			"name" : "Stos_lab9_IS_TOP_LEVEL",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "ON"
+		},
+		{
+			"name" : "Stos_lab9_SOURCE_DIR",
+			"properties" : 
+			[
+				{
+					"name" : "HELPSTRING",
+					"value" : "Value Computed by CMake"
+				}
+			],
+			"type" : "STATIC",
+			"value" : "/home/piotrk/Pulpit/CPP/Stos lab9"
 		}
 	],
 	"kind" : "cache",

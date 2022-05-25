@@ -1,0 +1,1 @@
+/usr/bin/c++ -g CMakeFiles/Agregaty_lab8.dir/main.cpp.o -o Agregaty_lab8 

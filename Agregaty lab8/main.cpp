@@ -233,5 +233,5 @@ int main() {
     std::cout << '\n';
 
     //dorobic menu na switch, osoby maja byc dodawane z klawiatury a nie zaciagane z pracownikow
-    //dodawanie, wyswietlanie, sortowanie
+    //dodawanie, wyswietlanie, sortowanie, usuwanie
 }

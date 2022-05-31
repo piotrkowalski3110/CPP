@@ -7,9 +7,10 @@ template<typename TYP> class Stack
 private:
     vector<TYP> Kontener;
 public:
-    Stack(){Kontener.reserve(100);} //wbudowana w vector funkcja reseve umożliwia ustalenie pojemności kontenera.
+    Stack(){Kontener.reserve(10);} //wbudowana w vector funkcja reseve umożliwia ustalenie pojemności kontenera.
 
-    void Clear();
+    void Clear(){
+    }
     bool IsEmpty();
     void Push(TYP El);
     TYP TopEl();

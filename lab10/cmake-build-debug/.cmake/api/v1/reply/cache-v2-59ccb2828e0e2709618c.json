@@ -55,7 +55,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piotrk/Pulpit/CPP/stos laby/cmake-build-debug"
+			"value" : "/home/piotrk/Pulpit/CPP/lab10/cmake-build-debug"
 		},
 		{
 			"name" : "CMAKE_CACHE_MAJOR_VERSION",
@@ -103,7 +103,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/cmake"
+			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cmake"
 		},
 		{
 			"name" : "CMAKE_CPACK_COMMAND",
@@ -115,7 +115,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/cpack"
+			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cpack"
 		},
 		{
 			"name" : "CMAKE_CTEST_COMMAND",
@@ -127,7 +127,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/ctest"
+			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/ctest"
 		},
 		{
 			"name" : "CMAKE_CXX_COMPILER",
@@ -411,7 +411,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/bin/ccmake"
+			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/ccmake"
 		},
 		{
 			"name" : "CMAKE_EXECUTABLE_FORMAT",
@@ -591,7 +591,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piotrk/Pulpit/CPP/stos laby"
+			"value" : "/home/piotrk/Pulpit/CPP/lab10"
 		},
 		{
 			"name" : "CMAKE_INSTALL_PREFIX",
@@ -643,7 +643,7 @@
 				}
 			],
 			"type" : "UNINITIALIZED",
-			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/ninja/linux/ninja"
+			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/ninja/linux/ninja"
 		},
 		{
 			"name" : "CMAKE_MODULE_LINKER_FLAGS",
@@ -831,7 +831,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "stos_laby"
+			"value" : "lab10"
 		},
 		{
 			"name" : "CMAKE_RANLIB",
@@ -875,7 +875,7 @@
 				}
 			],
 			"type" : "INTERNAL",
-			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5591.52/bin/cmake/linux/share/cmake-3.22"
+			"value" : "/home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/share/cmake-3.22"
 		},
 		{
 			"name" : "CMAKE_SHARED_LINKER_FLAGS",
@@ -1114,7 +1114,7 @@
 			"value" : "FALSE"
 		},
 		{
-			"name" : "stos_laby_BINARY_DIR",
+			"name" : "lab10_BINARY_DIR",
 			"properties" : 
 			[
 				{
@@ -1123,10 +1123,10 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/piotrk/Pulpit/CPP/stos laby/cmake-build-debug"
+			"value" : "/home/piotrk/Pulpit/CPP/lab10/cmake-build-debug"
 		},
 		{
-			"name" : "stos_laby_IS_TOP_LEVEL",
+			"name" : "lab10_IS_TOP_LEVEL",
 			"properties" : 
 			[
 				{
@@ -1138,7 +1138,7 @@
 			"value" : "ON"
 		},
 		{
-			"name" : "stos_laby_SOURCE_DIR",
+			"name" : "lab10_SOURCE_DIR",
 			"properties" : 
 			[
 				{
@@ -1147,7 +1147,7 @@
 				}
 			],
 			"type" : "STATIC",
-			"value" : "/home/piotrk/Pulpit/CPP/stos laby"
+			"value" : "/home/piotrk/Pulpit/CPP/lab10"
 		}
 	],
 	"kind" : "cache",

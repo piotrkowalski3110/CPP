@@ -11,7 +11,7 @@
 # =============================================================================
 
 # =============================================================================
-# Project: stos_laby
+# Project: lab10
 # Configurations: Debug
 # =============================================================================
 
@@ -39,47 +39,47 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/piotrk/Pulpit/CPP/stos$ laby/cmake-build-debug/
+cmake_ninja_workdir = /home/piotrk/Pulpit/CPP/lab10/cmake-build-debug/
 # =============================================================================
-# Object build statements for EXECUTABLE target stos_laby
+# Object build statements for EXECUTABLE target lab10
 
 
 #############################################
-# Order-only phony target for stos_laby
+# Order-only phony target for lab10
 
-build cmake_object_order_depends_target_stos_laby: phony || CMakeFiles/stos_laby.dir
+build cmake_object_order_depends_target_lab10: phony || CMakeFiles/lab10.dir
 
-build CMakeFiles/stos_laby.dir/main.cpp.o: CXX_COMPILER__stos_laby_Debug /home/piotrk/Pulpit/CPP/stos$ laby/main.cpp || cmake_object_order_depends_target_stos_laby
-  DEP_FILE = CMakeFiles/stos_laby.dir/main.cpp.o.d
+build CMakeFiles/lab10.dir/main.cpp.o: CXX_COMPILER__lab10_Debug /home/piotrk/Pulpit/CPP/lab10/main.cpp || cmake_object_order_depends_target_lab10
+  DEP_FILE = CMakeFiles/lab10.dir/main.cpp.o.d
   FLAGS = -g -std=gnu++14
-  OBJECT_DIR = CMakeFiles/stos_laby.dir
-  OBJECT_FILE_DIR = CMakeFiles/stos_laby.dir
-  TARGET_COMPILE_PDB = CMakeFiles/stos_laby.dir/
-  TARGET_PDB = stos_laby.pdb
+  OBJECT_DIR = CMakeFiles/lab10.dir
+  OBJECT_FILE_DIR = CMakeFiles/lab10.dir
+  TARGET_COMPILE_PDB = CMakeFiles/lab10.dir/
+  TARGET_PDB = lab10.pdb
 
 
 # =============================================================================
-# Link build statements for EXECUTABLE target stos_laby
+# Link build statements for EXECUTABLE target lab10
 
 
 #############################################
-# Link the executable stos_laby
+# Link the executable lab10
 
-build stos_laby: CXX_EXECUTABLE_LINKER__stos_laby_Debug CMakeFiles/stos_laby.dir/main.cpp.o
+build lab10: CXX_EXECUTABLE_LINKER__lab10_Debug CMakeFiles/lab10.dir/main.cpp.o
   FLAGS = -g
-  OBJECT_DIR = CMakeFiles/stos_laby.dir
+  OBJECT_DIR = CMakeFiles/lab10.dir
   POST_BUILD = :
   PRE_LINK = :
-  TARGET_COMPILE_PDB = CMakeFiles/stos_laby.dir/
-  TARGET_FILE = stos_laby
-  TARGET_PDB = stos_laby.pdb
+  TARGET_COMPILE_PDB = CMakeFiles/lab10.dir/
+  TARGET_FILE = lab10
+  TARGET_PDB = lab10.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/piotrk/Pulpit/CPP/stos laby/cmake-build-debug" && /home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/ccmake -S"/home/piotrk/Pulpit/CPP/stos laby" -B"/home/piotrk/Pulpit/CPP/stos laby/cmake-build-debug"
+  COMMAND = cd /home/piotrk/Pulpit/CPP/lab10/cmake-build-debug && /home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/ccmake -S/home/piotrk/Pulpit/CPP/lab10 -B/home/piotrk/Pulpit/CPP/lab10/cmake-build-debug
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -91,7 +91,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd "/home/piotrk/Pulpit/CPP/stos laby/cmake-build-debug" && /home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cmake --regenerate-during-build -S"/home/piotrk/Pulpit/CPP/stos laby" -B"/home/piotrk/Pulpit/CPP/stos laby/cmake-build-debug"
+  COMMAND = cd /home/piotrk/Pulpit/CPP/lab10/cmake-build-debug && /home/piotrk/.local/share/JetBrains/Toolbox/apps/CLion/ch-0/221.5787.29/bin/cmake/linux/bin/cmake --regenerate-during-build -S/home/piotrk/Pulpit/CPP/lab10 -B/home/piotrk/Pulpit/CPP/lab10/cmake-build-debug
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -107,9 +107,9 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 # =============================================================================
 
 #############################################
-# Folder: /home/piotrk/Pulpit/CPP/stos laby/cmake-build-debug
+# Folder: /home/piotrk/Pulpit/CPP/lab10/cmake-build-debug
 
-build all: phony stos_laby
+build all: phony lab10
 
 # =============================================================================
 # Built-in targets
